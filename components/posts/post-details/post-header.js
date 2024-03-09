@@ -9,8 +9,8 @@ function PostHeader({ title, image }) {
         <Image
           alt={title}
           src={image}
-          width={300}
-          height={200}
+          width={200}
+          height={150}
           layout="responsive"
         />
       </div>
