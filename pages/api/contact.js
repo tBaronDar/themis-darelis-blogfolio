@@ -29,10 +29,10 @@ export async function handler(req, res) {
 		};
 
 		let client;
+		const mongodbConnectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_cluster}.eucy2zz.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority&appName=Generic`;
+
 		try {
-			client = await MongoClient.connect(
-				"mongodb+srv://thebaron:RwXS2VsiZvfez7B@generic.eucy2zz.mongodb.net/portfolio?retryWrites=true&w=majority&appName=Generic"
-			);
+			client = await MongoClient.connect(mongodbConnectionString);
 		} catch (error) {
 			res.status(500).json({ message: "Couldn't connect to db" });
 			return;
