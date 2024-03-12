@@ -16,6 +16,9 @@ function MainNavigation() {
         <li>
           <Link href={"/contact"}>Contact</Link>
         </li>
+        <li>
+          <Link href={"/CV"}>CV</Link>
+        </li>
       </ul>
     </header>
   );
