@@ -1,6 +1,16 @@
-function CVPage(){
+import Europass from "../../components/CV/europass";
+import { getCV } from "../../lib/cv-utils";
 
-    return <section></section>
+function CVPage({ CV }) {
+  return <Europass CV={CV} />;
 }
 
 export default CVPage;
+
+export function getStaticProps() {
+  return {
+    props: {
+      CV: getCV(),
+    },
+  };
+}
