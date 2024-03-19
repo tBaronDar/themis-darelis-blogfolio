@@ -7,7 +7,7 @@ function Hero() {
       <div className={classes.image}>
         <Image
           alt="An image showing me"
-          src="/images/app/img.jpg"
+          src="/images/app/linkedIn-profile-pic.png"
           width={300}
           height={300}
         />
