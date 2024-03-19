@@ -29,7 +29,7 @@ function CVHeader({ headerData }) {
         <div className={classes["name-link"]}>
           <h2>Themistoklis Darelis</h2>
           <a
-            href="https://drive.google.com/file/d/1hb22mFDHvIlrRK8b0ALaGsBzOhxD9Ypf/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1hb22mFDHvIlrRK8b0ALaGsBzOhxD9Ypf/view?usp=sharing"
             target="_blank"
           >
             <h3>Get a PDF copy</h3>
