@@ -1,7 +1,7 @@
 ---
 phoneNumber: (+32) 487690110 (Mobile)
 email: thedarelis@gmail.com
-linkedInUrl: www.linkedin.com/in/themis-darelis-320a608b
+linkedInUrl: "www.linkedin.com/in/themis-darelis-320a608b"
 address: Verginas 5, 54250, Thessaloniki, Greece (Home)
 ---
 

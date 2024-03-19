@@ -6,13 +6,7 @@ function PostHeader({ title, image }) {
     <header className={classes.header}>
       <h1>{title}</h1>
       <div>
-        <Image
-          alt={title}
-          src={image}
-          width={200}
-          height={150}
-          layout="responsive"
-        />
+        <Image alt={title} src={image} width={550} height={275} />
       </div>
     </header>
   );
