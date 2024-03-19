@@ -1,13 +1,11 @@
 ---
 phoneNumber: (+32) 487690110 (Mobile)
 email: thedarelis@gmail.com
-LinkedIn: www.linkedin.com/in/themis-darelis-320a608b
-Address: Verginas 5, 54250, Thessaloniki, Greece (Home)
+linkedInUrl: www.linkedin.com/in/themis-darelis-320a608b
+address: Verginas 5, 54250, Thessaloniki, Greece (Home)
 ---
 
 ## ABOUT ME
-
----
 
 With over 15 years of experience as an electrical engineer, including 7 years abroad in Belgium, I transitioned careers to pursue my passion for web development. Currently honing my skills in React.js and Next.js, I thrive on learning and eagerly seek opportunities to demonstrate my capabilities.
 
