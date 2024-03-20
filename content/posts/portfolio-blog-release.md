@@ -1,6 +1,6 @@
 ---
 title: "Portfolio - Released!"
-date: "24-03-20"
+date: "2024-03-20"
 image: next-js-logo.png
 summary: The first release post of my personal blog and portfolio.
 isFeatured: true
