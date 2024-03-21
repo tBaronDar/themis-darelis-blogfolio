@@ -6,17 +6,17 @@
 
 body {
   --color-grey-50: #feffc2;
-  --color-grey-100: #f5d7a1;
-  --color-grey-200: #f5d7a1;
+  --color-grey-100: #feffc2;
+  --color-grey-200: #feffc2;
 
   --color-grey-300: #ffd2a5;
-  --color-grey-400: #f0a28e;
-  --color-grey-500: #f0a28e;
-  --color-grey-600: #f85a42;
+  --color-grey-400: #ffd2a5;
+  --color-grey-500: #ffd2a5;
+  --color-grey-600: #ffd2a5;
 
   --color-grey-700: #d38cad;
-  --color-grey-800: #ba6375;
-  --color-grey-900: #b8435b;
+  --color-grey-800: #d38cad;
+  --color-grey-900: #d38cad;
 
   --color-primary-50: #c8b3ce;
   --color-primary-100: #a07aaa;
@@ -55,28 +55,20 @@ h2,
 h3,
 h4 {
   font-family: "Oswald", "Roboto", sans-serif;
-  color: var(--color-grey-900);
+  color: red;
 }
 
 a {
   text-decoration: none;
-  color: var(--color-primary-700);
+  color: red;
 }
 
 table {
-  color: var(--color-primary-700);
+  color: red;
 }
 
 p {
-  color: var(--color-primary-700);
-}
-
-label {
-  color: var(--color-grey-900);
-}
-
-input {
-  color: var(--color-grey-900);
+  color: red;
 }
 
 button {

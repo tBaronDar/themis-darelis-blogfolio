@@ -10,8 +10,12 @@
 
 .header p {
   font-size: var(--size-5);
-  color: var(--color-primary-500);
-  text-align: left;
+  /* color: var(--color-primary-500); */
+  text-align: center;
+}
+
+.header a {
+  color: var(--color-primary-100);
 }
 
 .europass-logo {

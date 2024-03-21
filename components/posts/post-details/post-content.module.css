@@ -1,3 +1,8 @@
+.content li {
+  text-decoration: none;
+  color: var(--color-grey-800);
+}
+
 .content {
   width: 95%;
   max-width: 60rem;
@@ -17,6 +22,10 @@
   margin: var(--size-4) auto;
   width: 100%;
   max-width: 600px;
+}
+
+.image {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 768px) {
