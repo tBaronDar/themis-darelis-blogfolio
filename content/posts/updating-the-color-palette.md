@@ -2,7 +2,7 @@
 title: Updating the Color Palette
 summary: Try to make the site more pleasing to the eye by choosing a three color palette.
 image: color-palettes-logo.png
-isFeatured: false
+isFeatured: true
 date: "2024-03-21"
 ---
 
