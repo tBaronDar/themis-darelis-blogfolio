@@ -29,7 +29,7 @@ export async function handler(req, res) {
 		};
 
 		let client;
-		const mongodbConnectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_cluster}.eucy2zz.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority&appName=Generic`;
+		const mongodbConnectionString = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_CLUSTER}.eucy2zz.mongodb.net/${process.env.MONGODB_DATABASE}?retryWrites=true&w=majority&appName=Generic`;
 
 		try {
 			client = await MongoClient.connect(mongodbConnectionString);
