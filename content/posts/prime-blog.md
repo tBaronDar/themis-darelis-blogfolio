@@ -3,7 +3,7 @@ title: "My very first project - Prime blog"
 date: "2024-03-15"
 image: reactjs-vitejs-logo.png
 summary: My first personal project. A simple blog, hosted by firebase.
-isFeatured: true
+isFeatured: false
 ---
 
 [**Visit Prime blog**](https://prime-blog1.web.app/ "Prime Blog home page")

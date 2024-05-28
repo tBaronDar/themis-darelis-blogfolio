@@ -1,5 +1,5 @@
 ---
-title: Updating the Color Palette
+title: Portfolio - Updating the Color Palette
 summary: Try to make the site more pleasing to the eye by choosing a three color palette.
 image: color-palettes-logo.png
 isFeatured: true
