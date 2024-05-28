@@ -22,7 +22,7 @@ Additionally, I avidly seek out free online resources across various platforms t
 
 This dynamic strategy allows me to adapt my learning methods as needed, ensuring continuous improvement towards achieving a proficient level of programming skills that are highly marketable.
 
-Link: [https://github.com/tBaronDar](https://github.com/tBaronDar)
+_Link: [https://github.com/tBaronDar](https://github.com/tBaronDar)_
 
 _01/11/2022 – 30/11/2023 Waregem, Belgium_  
 **LIFT MODERNIZATION** ENGINEER ORONA BELGIUM
@@ -69,9 +69,9 @@ _01/07/2004 – 30/05/2009 Kavala, Greece_
 ---
 
 **Prime Blog** A fun project using React js.  
-Links: [prime-blog1.web.app/](prime-blog1.web.app/) | [GitHub](https://github.com/tBaronDar/prime-blog)
+_Links: [prime-blog1.web.app/](prime-blog1.web.app/) | [GitHub](https://github.com/tBaronDar/prime-blog)_
 
-My [GitHub](https://github.com/tBaronDar) profile with all my Personal projects and course' exercises.
+_My [GitHub](https://github.com/tBaronDar) profile with all my Personal projects and course' exercises._
 
 ## LANGUAGE SKILLS
 
