@@ -3,7 +3,7 @@ title: "Portfolio - Released!"
 date: "2024-03-20"
 image: next-js-logo.png
 summary: The release post of my personal blog and portfolio.
-isFeatured: true
+isFeatured: false
 ---
 
 ## Released at Last!
