@@ -1,5 +1,5 @@
 ---
-title: Wax Tablet Update 001.
+title: Wax Tablet Dev Diary 001.
 summary: First update of Wax Tablet. Mainly UI changes.
 image: typescript-authjs-color.png
 isFeatured: true
@@ -98,7 +98,7 @@ This is what **Wax Tablet** looks like after this update:
 
 # Next up.
 
-- Paging
+- Pagination
 - Fix messages grid so it shows loading spinner properly
 
 ---
