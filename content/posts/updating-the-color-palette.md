@@ -2,7 +2,7 @@
 title: Portfolio - Updating the Color Palette
 summary: Try to make the site more pleasing to the eye by choosing a three color palette.
 image: color-palettes-logo.png
-isFeatured: true
+isFeatured: false
 date: "2024-03-21"
 ---
 
@@ -49,14 +49,14 @@ This way, inside the _specialized_ **.module.css** files I only color the backgr
 
 ```css
 .content {
-  width: 95%;
-  max-width: 60rem;
-  margin: var(--size-8) auto;
-  font-size: var(--size-5);
-  line-height: var(--size-8);
-  background-color: var(--color-grey-100);
-  border-radius: 6px;
-  padding: var(--size-4);
+	width: 95%;
+	max-width: 60rem;
+	margin: var(--size-8) auto;
+	font-size: var(--size-5);
+	line-height: var(--size-8);
+	background-color: var(--color-grey-100);
+	border-radius: 6px;
+	padding: var(--size-4);
 }
 ```
 
