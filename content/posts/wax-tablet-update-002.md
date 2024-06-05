@@ -3,7 +3,7 @@ title: Wax Tablet Dev Diary 002.
 summary: Changelog for Wax Tablet. Mainly UI changes.
 image: typescript-authjs-color.png
 isFeatured: true
-date: "2024-06-04"
+date: "2024-06-05"
 ---
 
 [Visit the site **here**](https://wax-tablet-dashboard-themis-projects.vercel.app/)
@@ -51,7 +51,7 @@ export async function mongoGetNumberOfItems(
 
 # Pagination, showing the data correctly.
 
-The **HomePageControls** component, at the end of the page, was redesigned, adding 44 buttons and one paragraph. Its current look is like this:
+The **HomePageControls** component, at the end of the page, was redesigned, adding 4 buttons and one paragraph. Its current look is like this:
 
 ![ScreenShot](screenshot-pagination.jpg)
 

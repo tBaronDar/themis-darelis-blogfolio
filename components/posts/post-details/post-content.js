@@ -37,7 +37,7 @@ function PostContent({ post }) {
 						<Image
 							src={`/images/posts/${post.slug}/${image.properties.src}`}
 							alt={image.alt}
-							width={600}
+							width={650}
 							height={340}
 							layout="responsive"
 						/>
