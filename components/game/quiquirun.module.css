@@ -1,0 +1,5 @@
+.widget {
+	text-align: center;
+	margin: auto;
+	padding: var(--size-8) 0;
+}
