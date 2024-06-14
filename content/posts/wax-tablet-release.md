@@ -2,7 +2,7 @@
 title: Wax Tablet Release.
 summary: The release post of a new dashboard project called Wax Tablet.
 image: typescript-authjs-color.png
-isFeatured: true
+isFeatured: false
 date: "2024-05-28"
 ---
 
