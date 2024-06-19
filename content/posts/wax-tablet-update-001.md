@@ -2,7 +2,7 @@
 title: Wax Tablet Dev Diary 001.
 summary: First update of Wax Tablet. Mainly UI changes.
 image: typescript-authjs-color.png
-isFeatured: true
+isFeatured: false
 date: "2024-05-30"
 ---
 
@@ -16,19 +16,19 @@ I changed the way the **messages** incoming array is rendered, from the old **ta
 
 ```js
 <table className={classes.table}>
-	<tbody>
-		{props.messagesIn.map((message: Message) => (
-			<tr key={message.id} className={classes["table-row"]}>
-				<td>{props.messagesIn.indexOf(message) + 1}</td>
-				<td>{message.name}</td>
-				<td>{message.email}</td>
-				<td>{message.message}</td>
-				<td>
-					<DeleteButton message={message.message} email={session.user.email} />
-				</td>
-			</tr>
-		))}
-	</tbody>
+  <tbody>
+    {props.messagesIn.map((message: Message) => (
+      <tr key={message.id} className={classes["table-row"]}>
+        <td>{props.messagesIn.indexOf(message) + 1}</td>
+        <td>{message.name}</td>
+        <td>{message.email}</td>
+        <td>{message.message}</td>
+        <td>
+          <DeleteButton message={message.message} email={session.user.email} />
+        </td>
+      </tr>
+    ))}
+  </tbody>
 </table>
 ```
 
@@ -36,22 +36,22 @@ to a more modern **grid** layout:
 
 ```js
 const MessageCard: React.FC<{ message: Message, index: number }> = ({
-	message,
-	index,
+  message,
+  index,
 }) => {
-	return (
-		<div className={classes["master"]}>
-			<div className={classes["grid-container"]}>
-				<div className={classes["controls"]}>
-					<DeleteButton />
-				</div>
-				<div className={classes["email"]}>{message.email}</div>
-				<div className={classes["name"]}>{message.name}</div>
-				<div className={classes["message"]}>{message.message}</div>
-				<div className={classes["number"]}>{`Item number: ${index}`}</div>
-			</div>
-		</div>
-	);
+  return (
+    <div className={classes["master"]}>
+      <div className={classes["grid-container"]}>
+        <div className={classes["controls"]}>
+          <DeleteButton />
+        </div>
+        <div className={classes["email"]}>{message.email}</div>
+        <div className={classes["name"]}>{message.name}</div>
+        <div className={classes["message"]}>{message.message}</div>
+        <div className={classes["number"]}>{`Item number: ${index}`}</div>
+      </div>
+    </div>
+  );
 };
 ```
 
@@ -59,19 +59,19 @@ and the begining of the CSS looks something like this:
 
 ```css
 .grid-container {
-	padding: var(--size-4);
-	padding-bottom: var(--size-5);
-	width: 90%;
-	height: auto;
-	display: grid;
-	grid-template-columns: 20% 35% 35%;
-	background-color: var(--palette-color3);
-	gap: 5px;
-	box-shadow: 4px 4px 3px;
+  padding: var(--size-4);
+  padding-bottom: var(--size-5);
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 20% 35% 35%;
+  background-color: var(--palette-color3);
+  gap: 5px;
+  box-shadow: 4px 4px 3px;
 }
 
 .grid-container div {
-	text-align: center;
+  text-align: center;
 }
 ```
 

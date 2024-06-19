@@ -31,3 +31,5 @@ All the sprites and tiles were created with **Aseprite**. An opensource editor, 
 ## The problems.
 
 The most difficult problem I encountered during the development is exporting the game in a format that can be played on the browser. Besides _.exe_, **Godot** gives the option to export as **Web Executable** (Html) but it requires additional configuration from the hosting server in order to run properly. My host, **Vercel** is very cryptic on how to enable the needed _headers_. So I chose to upload it on **itch.io** because it allow me to tweak the hosting options more easily. I imported a widget component(React) on link it to my blog.
+
+---
