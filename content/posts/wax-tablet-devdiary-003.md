@@ -1,5 +1,5 @@
 ---
-title: Wax Tablet Dev Diary.
+title: Wax Tablet Dev Diary 003.
 summary: Fixed breaking layout on mobile devices.
 image: typescript-authjs-color.png
 isFeatured: true
