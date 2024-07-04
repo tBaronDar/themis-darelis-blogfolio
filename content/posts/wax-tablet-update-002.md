@@ -2,7 +2,7 @@
 title: Wax Tablet Dev Diary 002.
 summary: Changelog for Wax Tablet. Mainly UI changes.
 image: typescript-authjs-color.png
-isFeatured: true
+isFeatured: false
 date: "2024-06-05"
 ---
 
