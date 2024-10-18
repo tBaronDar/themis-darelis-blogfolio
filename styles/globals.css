@@ -1,85 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap");
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  --color-grey-50: #feffc2;
-  --color-grey-100: #f5d7a1;
-  --color-grey-200: #f5d7a1;
+	--color-grey-50: #feffc2;
+	--color-grey-100: #f5d7a1;
+	--color-grey-200: #f5d7a1;
 
-  --color-grey-300: #ffd2a5;
-  --color-grey-400: #f0a28e;
-  --color-grey-500: #f0a28e;
-  --color-grey-600: #f85a42;
+	--color-grey-300: #ffd2a5;
+	--color-grey-400: #f0a28e;
+	--color-grey-500: #f0a28e;
+	--color-grey-600: #f85a42;
 
-  --color-grey-700: #d38cad;
-  --color-grey-800: #ba6375;
-  --color-grey-900: #b8435b;
+	--color-grey-700: #d38cad;
+	--color-grey-800: #ba6375;
+	--color-grey-900: #b8435b;
 
-  --color-primary-50: #c8b3ce;
-  --color-primary-100: #a07aaa;
-  --color-primary-200: #884c97;
-  --color-primary-300: #843897;
-  --color-primary-400: #732392;
-  --color-primary-500: #5a097a;
-  --color-primary-600: #480264;
-  --color-primary-700: #480264;
+	--color-primary-50: #c8b3ce;
+	--color-primary-100: #a07aaa;
+	--color-primary-200: #884c97;
+	--color-primary-300: #843897;
+	--color-primary-400: #732392;
+	--color-primary-500: #5a097a;
+	--color-primary-600: #480264;
+	--color-primary-700: #480264;
 
-  --color-success-100: #a2f0bc;
-  --color-success-500: #12bd4b;
+	--color-success-100: #a2f0bc;
+	--color-success-500: #12bd4b;
 
-  --color-error-100: #f1acc9;
-  --color-error-500: #a10c4a;
+	--color-error-100: #f1acc9;
+	--color-error-500: #a10c4a;
 
-  --size-1: 0.25rem;
-  --size-2: 0.5rem;
-  --size-3: 0.75rem;
-  --size-4: 1rem;
-  --size-5: 1.25rem;
-  --size-6: 1.5rem;
-  --size-8: 2rem;
-  --size-16: 4rem;
-  --size-20: 5rem;
-  --size-40: 10rem;
+	--size-1: 0.25rem;
+	--size-2: 0.5rem;
+	--size-3: 0.75rem;
+	--size-4: 1rem;
+	--size-5: 1.25rem;
+	--size-6: 1.5rem;
+	--size-8: 2rem;
+	--size-16: 4rem;
+	--size-20: 5rem;
+	--size-40: 10rem;
 
-  margin: 0;
-  background-color: var(--color-grey-500);
-  color: #252525;
-  font-family: "Roboto", sans-serif;
+	margin: 0;
+	background-color: var(--color-grey-500);
+	color: #252525;
+	font-family: "Roboto", sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Oswald", "Roboto", sans-serif;
-  color: var(--color-grey-900);
-}
-
-a {
-  text-decoration: none;
-  color: var(--color-primary-700);
+	font-family: "Oswald", "Roboto", sans-serif;
+	color: var(--color-grey-900);
 }
 
 table {
-  color: var(--color-primary-700);
+	color: var(--color-primary-700);
 }
 
 p {
-  color: var(--color-primary-700);
+	color: var(--color-primary-700);
 }
 
 label {
-  color: var(--color-grey-900);
+	color: var(--color-grey-900);
 }
 
 input {
-  color: var(--color-grey-900);
+	color: var(--color-grey-900);
 }
 
 button {
-  font: inherit;
-  cursor: pointer;
+	font: inherit;
+	cursor: pointer;
 }

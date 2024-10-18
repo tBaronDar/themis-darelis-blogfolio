@@ -2,7 +2,7 @@
 title: Quiqui run release post.
 summary: A humble gamming effort.
 image: godot-aseprite.png
-isFeatured: true
+isFeatured: false
 date: "2024-06-14"
 ---
 
