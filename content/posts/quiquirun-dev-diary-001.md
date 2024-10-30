@@ -2,7 +2,7 @@
 title: Quiqui dev diary 001.
 summary: Added main menu, music and more...
 image: godot-aseprite.png
-isFeatured: true
+isFeatured: false
 date: "2024-06-19"
 ---
 
