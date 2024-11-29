@@ -78,3 +78,7 @@ button {
 	font: inherit;
 	cursor: pointer;
 }
+
+a {
+	color: #0e0887;
+}
