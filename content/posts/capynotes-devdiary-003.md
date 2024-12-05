@@ -1,5 +1,5 @@
 ---
-title: "CapyNotes - Dev Diary 002."
+title: "CapyNotes - Dev Diary 003."
 date: "2024-12-5"
 image: capynotesTrpc.webp
 summary: Regular update - Added alert pop up.
