@@ -3,7 +3,7 @@ title: "Components Library - Released!"
 date: "2024-10-18"
 image: components-lib.jpg
 summary: The release post of a web components library.
-isFeatured: true
+isFeatured: false
 ---
 
 ## Useful links.

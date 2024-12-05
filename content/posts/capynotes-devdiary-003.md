@@ -1,16 +1,20 @@
 ---
 title: "CapyNotes - Dev Diary 002."
-date: "2024-11-29"
+date: "2024-12-5"
 image: capynotesTrpc.webp
-summary: CapyNotes version 1.0 release post.
+summary: Regular update - Added alert pop up.
 isFeatured: true
 ---
 
-## CapyNotes Goes online.
+## CapyNotes Updates.
 
 [This is the site](https://capynotes.vercel.app/)
 
-The main functionality of CapyNotes is complete. All CRUD operations are in place. There are some features , like the fullscreen mode, that do not work at all. Also, currently there is no responsiveness for smaller screens.
+I decided to release weekly updates for this project. That way I can plan ahead and manage my time better. In this update, I added a very basic alert to show that the user input is not complete. Previously there was no feedback why the upload button didn't work.
+
+Also, I added shadows on the list items(notes), in order to make each one distinct.
+
+and more CSS fixes...
 
 ## About.
 
