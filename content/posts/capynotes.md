@@ -3,7 +3,7 @@ title: "CapyNotes - Dev Diary 001."
 date: "2024-11-12"
 image: capynotesTrpc.webp
 summary: The roadmap post of CapyNotes, a note taking app.
-isFeatured: true
+isFeatured: false
 ---
 
 ## About
