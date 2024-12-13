@@ -1,6 +1,6 @@
 ---
 title: "CapyNotes - Dev Diary 003."
-date: "2024-12-5"
+date: "2024-12-05"
 image: capynotesTrpc.webp
 summary: Regular update - Added alert pop up.
 isFeatured: true
